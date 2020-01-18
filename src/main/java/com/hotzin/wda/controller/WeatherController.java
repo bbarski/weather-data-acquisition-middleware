@@ -1,6 +1,7 @@
 package com.hotzin.wda.controller;
 
 import com.hotzin.wda.model.ClientRawModel;
+import com.hotzin.wda.service.CitiesToWSUrlsMappingService;
 import com.hotzin.wda.service.WeatherDataAquirerService;
 import com.hotzin.wda.service.WeatherDataMappingService;
 import lombok.RequiredArgsConstructor;
@@ -19,13 +20,14 @@ public class WeatherController {
 
     private final WeatherDataAquirerService weatherDataAquirerService;
     private final WeatherDataMappingService weatherDataMappingService;
+    private final CitiesToWSUrlsMappingService citiesToWSUrlsMappingService;
 
-    //TODO URI jako prametr
     @GetMapping("/")
     @ResponseBody
-    public HttpEntity<ClientRawModel> weatherEndpoint(@RequestParam String wsurl){
+    public HttpEntity<ClientRawModel> weatherEndpoint(@RequestParam String cityName){
 
-        String weatherData = weatherDataAquirerService.getWeatherData(URI.create(wsurl));
+        String weatherStationURI = citiesToWSUrlsMappingService.mapCityNameToWSUrl(cityName);
+        String weatherData = weatherDataAquirerService.getWeatherData(URI.create(weatherStationURI));
         ClientRawModel clientRawModel = weatherDataMappingService.mappData(weatherData);
         return new HttpEntity<>(clientRawModel);
     }
