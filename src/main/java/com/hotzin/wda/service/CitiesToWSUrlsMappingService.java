@@ -1,41 +1,31 @@
 package com.hotzin.wda.service;
 
+import com.hotzin.wda.configuration.exception.CityNotFoundException;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
-import java.io.IOException;
-import java.nio.file.FileSystems;
-import java.nio.file.Files;
-import java.nio.file.Path;
 import java.util.Map;
-import java.util.stream.Collectors;
+import java.util.Optional;
 
+@Slf4j
 @Service
 public class CitiesToWSUrlsMappingService {
 
-    //TODO Handle null WSUrl
+    @Autowired
+    @Qualifier(value = "cityMapper")
+    private Map<String, String> cityMapper;
+
     public String mapCityNameToWSUrl(String cityName) {
+        String city = cityMapper.get(cityName.toLowerCase());
 
-        Map map;
-        String WSUrl = null;
-
-        try {
-            map = mapFromFile();
-            WSUrl = (String) map.get(cityName.toLowerCase());
-        } catch (IOException e) {
-            e.printStackTrace();
-          }
-
-        return WSUrl;
-
+        return Optional.ofNullable(city)
+                .orElseThrow(() -> {
+                    log.error("city : {} could not be mapped", cityName);
+                    throw new CityNotFoundException(String.format("city %s could not be mapped ", cityName));
+                });
     }
 
-    //TODO init map at app start
-    private Map<String, String> mapFromFile() throws IOException {
-   //TODO validate/sanitize file before read
-        String filePath = "src/main/resources/weatherstationsUrls.txt";
-        Path path = FileSystems.getDefault().getPath(filePath);
-
-        return Files.lines(path).collect(Collectors.toMap(k -> k.split("=")[0], v -> v.split("=")[1]));
-    }
 
 }

@@ -6,3 +6,6 @@ newham=http://www.tomsweatherservices.co.uk/weather_live/clientraw.txt
 newquay=http://www.newquayweather.com/clientraw.txt
 corran ferry=https://www.lochaberwx.co.uk/clientraw.txt
 whaley bridge=http://www.dragonshome.com/weather/clientraw.txt
+glenbervie=https://www.glenbervie-weather.org/clientraw.txt
+gulberwick=http://gulberwickweather.co.uk/clientraw.txt
+clevedon=http://www.clevedonweather.co.uk/wdisplay/clientraw.txt

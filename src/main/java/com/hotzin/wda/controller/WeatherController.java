@@ -6,15 +6,12 @@ import com.hotzin.wda.service.WeatherDataAquirerService;
 import com.hotzin.wda.service.WeatherDataMappingService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpEntity;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 import java.net.URI;
 
 
-@Controller
+@RestController
 @RequiredArgsConstructor
 public class WeatherController {
 
@@ -22,8 +19,8 @@ public class WeatherController {
     private final WeatherDataMappingService weatherDataMappingService;
     private final CitiesToWSUrlsMappingService citiesToWSUrlsMappingService;
 
+    @CrossOrigin(origins = "*")
     @GetMapping("/")
-    @ResponseBody
     public HttpEntity<ClientRawModel> weatherEndpoint(@RequestParam String cityName){
 
         String weatherStationURI = citiesToWSUrlsMappingService.mapCityNameToWSUrl(cityName);

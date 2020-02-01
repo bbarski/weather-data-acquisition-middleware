@@ -12,22 +12,20 @@ http://www.bordersweather.co.uk/clientraw.txt
 http://hebweather.net/clientraw.txt
 http://www.isleofskyeweather.co.uk/clientraw.txt
 http://garyburnett.co.uk/php/clientraw.txt
-https://www.glenbervie-weather.org/clientraw.txt
 http://www.homeinscotland.dns2go.com/clientraw.txt
-http://gulberwickweather.co.uk/clientraw.txt
 http://www.bathgateweather.co.uk/system_data/weather_display/clientraw.txt
 http://www.burnhamoncrouchweather.com/clientraw.txt
 https://sidlawweather.co.uk/live/clientraw.txt
 https://www.sunwharf.com/willingdon/clientraw.txt
 http://hebweather.net/clientraw.txt
 https://www.lochaberwx.co.uk/clientraw.txt
-https://www.glenbervie-weather.org/clientraw.txt
 http://www.chilthorneweather.co.uk/wdl/clientraw.txt
 http://www.bathgateweather.co.uk/system_data/weather_display/clientraw.txt
 http://www.metnet.co.uk/clientraw.txt
 http://www.ardmore-lodge.com/clientraw.txt
 http://www.uptonmanor.eclipse.co.uk/weatherdisp/clientraw.txt
 http://www.martynhicks.uk/weather/clientraw.txt
+
 https://www.corsock.com/metdata/clientraw.txt
 
 
