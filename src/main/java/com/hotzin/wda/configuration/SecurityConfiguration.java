@@ -29,11 +29,10 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-                http
+        http
+                .cors().disable()
                 .authorizeRequests()
                 .anyRequest().permitAll();
-//                .authenticated()
-//                .and()
-//                .httpBasic();
     }
+
 }

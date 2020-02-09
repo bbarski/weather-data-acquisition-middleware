@@ -1,6 +1,7 @@
 package com.hotzin.wda.controller;
 
 import com.hotzin.wda.model.ClientRawModel;
+import com.hotzin.wda.service.CitiesService;
 import com.hotzin.wda.service.CitiesToWSUrlsMappingService;
 import com.hotzin.wda.service.WeatherDataAquirerService;
 import com.hotzin.wda.service.WeatherDataMappingService;
@@ -9,6 +10,7 @@ import org.springframework.http.HttpEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.net.URI;
+import java.util.List;
 
 
 @RestController
@@ -18,6 +20,7 @@ public class WeatherController {
     private final WeatherDataAquirerService weatherDataAquirerService;
     private final WeatherDataMappingService weatherDataMappingService;
     private final CitiesToWSUrlsMappingService citiesToWSUrlsMappingService;
+    private final CitiesService citiesService;
 
     @CrossOrigin(origins = "*", allowedHeaders = "*")
     @GetMapping("/")
@@ -27,6 +30,13 @@ public class WeatherController {
         String weatherData = weatherDataAquirerService.getWeatherData(URI.create(weatherStationURI));
         ClientRawModel clientRawModel = weatherDataMappingService.mappData(weatherData);
         return new HttpEntity<>(clientRawModel);
+    }
+
+    @CrossOrigin(origins = "*", allowedHeaders = "*")
+    @GetMapping("/weather/city")
+    public List<String> getCitiesNames(){
+
+        return citiesService.returnAllCities();
     }
 
 }
