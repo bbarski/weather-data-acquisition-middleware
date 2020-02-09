@@ -19,7 +19,7 @@ public class WeatherController {
     private final WeatherDataMappingService weatherDataMappingService;
     private final CitiesToWSUrlsMappingService citiesToWSUrlsMappingService;
 
-    @CrossOrigin(origins = "*")
+    @CrossOrigin(origins = "*", allowedHeaders = "*")
     @GetMapping("/")
     public HttpEntity<ClientRawModel> weatherEndpoint(@RequestParam String cityName){
 
