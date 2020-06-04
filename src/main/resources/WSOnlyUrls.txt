@@ -25,11 +25,17 @@ http://www.metnet.co.uk/clientraw.txt
 http://www.ardmore-lodge.com/clientraw.txt
 http://www.uptonmanor.eclipse.co.uk/weatherdisp/clientraw.txt
 http://www.martynhicks.uk/weather/clientraw.txt
-
 https://www.corsock.com/metdata/clientraw.txt
-
-
-
+https://www.kenaiweather.com/clientraw.txt
+https://www.kenaiweather.com/clientrawextra.txt
+http://www.willowweather.com/clientraw.txt
+http://www.willowweather.com/clientrawextra.txt
+http://weather.azkiwis.net/clientraw.txt
+http://weather.azkiwis.net/clientrawextra.txt
+http://tiggrweather.net/clientraw.txt
+http://tiggrweather.net/clientrawextra.txt
+http://www.pepperridgenorthvalley.com/wdlive/clientraw.txt
+http://www.pepperridgenorthvalley.com/wdlive/clientrawextra.txt
 http://www.llanelliweather.co.uk/customclientraw.txt
 https://www.peterboroughweatherwatch.com/customclientraw.txt
 http://www.stambourne.com/weather/customclientraw.txt
@@ -49,6 +55,7 @@ https://www.willandweather.org.uk/realtime.txt
 http://peebleswx.co.uk/wx/realtime.txt
 http://www.fordingbridgeweather.co.uk/saratoga/realtime.txt
 http://www.marton-weather.co.uk/realtime.txt
+http://www.beeweather.com/realtime.txt
 
 
 https://www.conligwx.org/MBrealtime.txt
