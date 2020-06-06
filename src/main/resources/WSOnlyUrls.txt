@@ -46,6 +46,22 @@ http://www.stella-maris.org.uk/wdl/customclientraw.php
 http://www.chilthorneweather.co.uk/wdl/customclientraw.txt
 https://monadh.com/WC/customclientraw.txt
 https://monadh.com/NB/customclientraw.txt
+*http://frogville.us/clientraw.txt
+*https://weather.manyjourneys.com/WDL/clientraw.txt
+*http://www.foresthillweather.com/wdisplay/clientraw.txt
+*https://patricksweeneydds.com/clientraw.txt
+*http://cronce.org/MeteoHubPacifica/clientraw.txt
+*https://desertweather.com/clientraw.txt
+*http://railroadflat.org/weather/clientraw.txt
+*http://www.wx4mt.com/clientraw.txt
+*http://www.weathercat.net/clientraw.txt
+*http://www.deputydawgwx.com/clientraw.txt
+*https://www.weather-station.org/wdisplay/clientraw.txt
+*http://localweatherplus.com/clientraw.txt
+*https://lasvegaswx.com/clientraw.txt
+*http://www.johnsnhweather.com/clientraw.txt
+*https://heightsweather.info/clientraw.txt
+
 
 
 http://www.cliftonweather.co.uk/realtime.txt
@@ -56,15 +72,15 @@ http://peebleswx.co.uk/wx/realtime.txt
 http://www.fordingbridgeweather.co.uk/saratoga/realtime.txt
 http://www.marton-weather.co.uk/realtime.txt
 http://www.beeweather.com/realtime.txt
-
+https://hsnpar.com/realtime.txt
+http://weather.actonastro.com/wc/WCT_realtime.txt
+https://www.camarilloweather.com/realtime.txt
+http://www.foresthillweather.com/cumulus/realtime.txt
 
 https://www.conligwx.org/MBrealtime.txt
 https://www.chatteris.biz/MBrealtime.txt
 
-
 https://dunchurchweather.co.uk/weather/ws_realtime.php
-
-
 
 http://weather.penicuik.org/realtimegauges.txt
 http://www.sheffieldweather.net/cumulus/realtimegauges.txt
@@ -73,3 +89,10 @@ https://warehamwx.co.uk/realtimegauges.txt
 http://www.cm2weather.co.uk/realtimegauges.txt
 http://www.tottonweather.co.uk/realtimegauges.txt
 https://www.wetherbyweather.org.uk/realtimegauges.txt
+
+http://www.duarteweather.com/assets/wxgraphic/data.html
+
+http://www.foresthillweather.com/WxFlash/Data/wflash.txt
+http://www.foresthillweather.com/WxFlash/Data/wflash2.txt
+
+https://api.weather.com/v3/TileServer/series/productSet?apiKey=089ed4e892fb0dfdf34eb81e6f2521aa&filter=twc250RadarMosaic
