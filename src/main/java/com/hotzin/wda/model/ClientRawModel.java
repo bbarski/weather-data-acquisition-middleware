@@ -17,16 +17,20 @@ public class ClientRawModel {
     private String hourTime;//29
     private String minuteTime;//30
     private String secondsTime;//31
-    private String stationName;//32
+    //private String stationName;//32
     private String dayTime;//35
     private String monthTime;//36
     private String weatherDesc;//49
     private String dateLabel;//74
+    private String latitude;//160 (- for southern hemisphere) Reverse Geocoding
+    private String longitude;//161 (- for EAST of GMT)
 
     public static ClientRawModel from(String stringData) {
         String[] tokenizedData = stringData.split(" ");
-
+//TODO co decyduje o kolejnosci pol z modelu na froncie ?
         return ClientRawModel.builder()
+                .latitude(tokenizedData[160])
+                .longitude(tokenizedData[161])
                 .avgSpeedKnots(tokenizedData[1])
                 .windDirCompass(tokenizedData[3])
                 .outsideTempCelsius(tokenizedData[4])
@@ -35,7 +39,7 @@ public class ClientRawModel {
                 .hourTime(tokenizedData[29])
                 .minuteTime(tokenizedData[30])
                 .secondsTime(tokenizedData[31])
-                .stationName(tokenizedData[32])
+                //.stationName(tokenizedData[32])
                 .dayTime(tokenizedData[35])
                 .monthTime(tokenizedData[36])
                 .weatherDesc(tokenizedData[49])

@@ -17,12 +17,10 @@ public class CityMappingConfiguration {
     public static InputStream accessFile() {
         String resource = "weatherstationsUrls.txt";
 
-        // this is the path within the jar file
         InputStream input = CityMappingConfiguration.class.getResourceAsStream("/resources/" + resource);
-        if (input == null) {
-            // this is how we load file within editor (eg eclipse)
-            input = CityMappingConfiguration.class.getClassLoader().getResourceAsStream(resource);
-        }
+            if (input == null) {
+                input = CityMappingConfiguration.class.getClassLoader().getResourceAsStream(resource);
+            }
 
         return input;
     }
@@ -36,7 +34,6 @@ public class CityMappingConfiguration {
         while ((line = br.readLine()) != null) {
             map.put(line.split("=")[0], line.split("=")[1]);
         }
-
 
         return map;
     }
