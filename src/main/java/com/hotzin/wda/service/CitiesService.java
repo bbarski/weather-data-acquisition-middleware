@@ -19,7 +19,6 @@ public class CitiesService {
 
 
     public List<String> returnAllCities(){
-
         return new ArrayList<>(cityMapper.keySet());
     }
 

@@ -21,13 +21,14 @@ public class ClientRawModel {
     private String dayTime;//35
     private String monthTime;//36
     private String weatherDesc;//49
-    private String dateLabel;//74
+    //private String dateLabel;//74
     private String latitude;//160 (- for southern hemisphere) Reverse Geocoding
     private String longitude;//161 (- for EAST of GMT)
 
     public static ClientRawModel from(String stringData) {
         String[] tokenizedData = stringData.split(" ");
-//TODO co decyduje o kolejnosci pol z modelu na froncie ?
+
+
         return ClientRawModel.builder()
                 .latitude(tokenizedData[160])
                 .longitude(tokenizedData[161])
@@ -43,7 +44,7 @@ public class ClientRawModel {
                 .dayTime(tokenizedData[35])
                 .monthTime(tokenizedData[36])
                 .weatherDesc(tokenizedData[49])
-                .dateLabel(tokenizedData[74])
+                //.dateLabel(tokenizedData[74])
                 .build();
     }
 
