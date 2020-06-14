@@ -14,15 +14,17 @@ import java.util.List;
 public class WeatherResponse {
 //TODO map clientRawModel to WeatherResponse
 
-    private ClientRawModel clientRawModel;
-    private GeoCodeModel geoCodeModel;
+    //private ClientRawModel clientRawModel;
+    //private GeoCodeModel geoCodeModel;
+    private String geoCodeModelLabelField;
+    private String clientRawModelOutsideTempCelsius;
 
 
     public static WeatherResponse constructResponse(GeoCodeModel geoCodeModel, ClientRawModel clientRawModel) {
 
         return WeatherResponse.builder()
-                .geoCodeModel(geoCodeModel)
-                .clientRawModel(clientRawModel)
+                .geoCodeModelLabelField(geoCodeModel.data[0].toString())
+                .clientRawModelOutsideTempCelsius(clientRawModel.getOutsideTempCelsius())
                 .build();
     }
 

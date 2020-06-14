@@ -11,6 +11,7 @@ import lombok.*;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class GeoCodeModel {
 
-    public Object data;
+    public Object[] data;
+
 
 }

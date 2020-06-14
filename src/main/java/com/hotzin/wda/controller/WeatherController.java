@@ -29,7 +29,7 @@ public class WeatherController {
 
     @CrossOrigin(origins = "*", allowedHeaders = "*")
     @GetMapping("/")
-    public HttpEntity<ClientRawModel> weatherEndpoint(@RequestParam String cityName){
+    public HttpEntity<WeatherResponse> weatherEndpoint(@RequestParam String cityName){
 
         String weatherStationURI = citiesToWSUrlsMappingService.mapCityNameToWSUrl(cityName);
         String weatherData = weatherDataAquirerService.getWeatherData(URI.create(weatherStationURI));
@@ -37,8 +37,9 @@ public class WeatherController {
 
         GeoCodeModel geoCodeModel = geoCodeClient.mapToLocation(clientRawModel.getLatitude(), clientRawModel.getLongitude());
 
-        return new HttpEntity<ClientRawModel>(clientRawModel);
-                //HttpEntity<WeatherResponse>(WeatherResponse.constructResponse(geoCodeModel, clientRawModel));
+        return new
+                //HttpEntity<ClientRawModel>(clientRawModel);
+                HttpEntity<WeatherResponse>(WeatherResponse.constructResponse(geoCodeModel, clientRawModel));
     }
 
     @CrossOrigin(origins = "*", allowedHeaders = "*")
