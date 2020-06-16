@@ -6,12 +6,9 @@ import lombok.*;
 @Setter
 @Getter
 @Builder
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class GeoCodeModel {
-
-    public Object[] data;
-
-
+    public String label;
 }

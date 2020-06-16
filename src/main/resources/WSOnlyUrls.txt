@@ -89,6 +89,7 @@ https://warehamwx.co.uk/realtimegauges.txt
 http://www.cm2weather.co.uk/realtimegauges.txt
 http://www.tottonweather.co.uk/realtimegauges.txt
 https://www.wetherbyweather.org.uk/realtimegauges.txt
+http://stacjapogody.waw.pl/gauges/realtimegauges.php?nazwa=0
 
 http://www.duarteweather.com/assets/wxgraphic/data.html
 

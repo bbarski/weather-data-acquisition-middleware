@@ -1,8 +1,7 @@
 package com.hotzin.wda.controller;
 
 import com.hotzin.wda.client.GeoCodeClient;
-import com.hotzin.wda.client.model.GeoCodeModel;
-import com.hotzin.wda.client.model.GeoCodeModelWrapper;
+import com.hotzin.wda.client.model.GeoCodeModels;
 import com.hotzin.wda.controller.model.WeatherResponse;
 import com.hotzin.wda.model.ClientRawModel;
 import com.hotzin.wda.service.CitiesService;
@@ -35,11 +34,11 @@ public class WeatherController {
         String weatherData = weatherDataAquirerService.getWeatherData(URI.create(weatherStationURI));
         ClientRawModel clientRawModel = weatherDataMappingService.mapData(weatherData);
 
-        GeoCodeModel geoCodeModel = geoCodeClient.mapToLocation(clientRawModel.getLatitude(), clientRawModel.getLongitude());
+        GeoCodeModels geoCodeModels = geoCodeClient.mapToLocation(clientRawModel.getLatitude(), clientRawModel.getLongitude());
 
         return new
                 //HttpEntity<ClientRawModel>(clientRawModel);
-                HttpEntity<WeatherResponse>(WeatherResponse.constructResponse(geoCodeModel, clientRawModel));
+                HttpEntity<WeatherResponse>(WeatherResponse.constructResponse(geoCodeModels, clientRawModel));
     }
 
     @CrossOrigin(origins = "*", allowedHeaders = "*")
