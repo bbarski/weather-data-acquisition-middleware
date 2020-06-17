@@ -13,17 +13,20 @@ import lombok.*;
 public class WeatherResponse {
 //TODO map clientRawModel to WeatherResponse
 
-    //private ClientRawModel clientRawModel;
-    private static GeoCodeModel geoCodeModel;
-    private Object geoCodeModelResultsObject;
-    private Object clientRawModelObject;
-
+    private String clientRawModelOutsideTempCelsius;
+    private String clientRawModelBarometerHPa;
+    private String clientRawModelWeatherDesc;
+    private String clientRawModelOutsideHumidityPercent;
+    private String clientRawModelAvgSpeedKnots;
 
     public static WeatherResponse constructResponse(GeoCodeModels geoCodeModels, ClientRawModel clientRawModel) {
 
         return WeatherResponse.builder()
-                .geoCodeModelResultsObject(geoCodeModels.getLicenses()[0].getName())
-                .clientRawModelObject(clientRawModel)
+                .clientRawModelOutsideTempCelsius(clientRawModel.getOutsideTempCelsius())
+                .clientRawModelBarometerHPa(clientRawModel.getBarometerHPa())
+                .clientRawModelWeatherDesc(clientRawModel.getWeatherDesc())
+                .clientRawModelOutsideHumidityPercent(clientRawModel.getOutsideHumidityPercent())
+                .clientRawModelAvgSpeedKnots(clientRawModel.getAvgSpeedKnots())
                 .build();
     }
 
