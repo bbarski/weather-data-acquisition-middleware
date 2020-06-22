@@ -13,7 +13,7 @@ public class GeoCodeModels {
     public String documentation;
     public Licenses[] licenses;
     public Object rate;
-    public Object[] results;
+    public Results[] results;
     public Object status;
     public Object stay_informed;
     public String thanks;
@@ -22,9 +22,25 @@ public class GeoCodeModels {
 
     @Setter
     @Getter
-    //@NoArgsConstructor
     public static class Licenses{
         public String name;
         public String url;
     }
+
+    @Setter
+    @Getter
+    public static class Results{
+        Components components;
+
+        @Setter
+        @Getter
+        public static class Components{
+            public String town;
+            public String city;
+            public String village;
+        }
+
+    }
+
+
 }

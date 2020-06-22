@@ -1,6 +1,5 @@
 package com.hotzin.wda.controller.model;
 
-import com.hotzin.wda.client.model.GeoCodeModel;
 import com.hotzin.wda.client.model.GeoCodeModels;
 import com.hotzin.wda.model.ClientRawModel;
 import lombok.*;
@@ -18,6 +17,9 @@ public class WeatherResponse {
     private String clientRawModelWeatherDesc;
     private String clientRawModelOutsideHumidityPercent;
     private String clientRawModelAvgSpeedKnots;
+    private String clientRawModelLatitude;
+    private String clientRawModelLongitude;
+    private String geoCodeModelsPlace;
 
     public static WeatherResponse constructResponse(GeoCodeModels geoCodeModels, ClientRawModel clientRawModel) {
 
@@ -27,6 +29,11 @@ public class WeatherResponse {
                 .clientRawModelWeatherDesc(clientRawModel.getWeatherDesc())
                 .clientRawModelOutsideHumidityPercent(clientRawModel.getOutsideHumidityPercent())
                 .clientRawModelAvgSpeedKnots(clientRawModel.getAvgSpeedKnots())
+                .clientRawModelLatitude(clientRawModel.getLatitude())
+                .clientRawModelLongitude(clientRawModel.getLongitude())
+                .geoCodeModelsPlace(geoCodeModels.getResults()[0].getComponents().getTown())
+                .geoCodeModelsPlace(geoCodeModels.getResults()[0].getComponents().getCity())
+                .geoCodeModelsPlace(geoCodeModels.getResults()[0].getComponents().getVillage())
                 .build();
     }
 
