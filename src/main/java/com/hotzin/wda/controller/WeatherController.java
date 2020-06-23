@@ -37,7 +37,6 @@ public class WeatherController {
         GeoCodeModels geoCodeModels = geoCodeClient.mapToLocation(clientRawModel.getLatitude(), clientRawModel.getLongitude());
 
         return new
-                //HttpEntity<ClientRawModel>(clientRawModel);
                 HttpEntity<WeatherResponse>(WeatherResponse.constructResponse(geoCodeModels, clientRawModel));
     }
 

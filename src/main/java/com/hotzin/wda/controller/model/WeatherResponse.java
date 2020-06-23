@@ -31,9 +31,9 @@ public class WeatherResponse {
                 .clientRawModelAvgSpeedKnots(clientRawModel.getAvgSpeedKnots())
                 .clientRawModelLatitude(clientRawModel.getLatitude())
                 .clientRawModelLongitude(clientRawModel.getLongitude())
-                .geoCodeModelsPlace(geoCodeModels.getResults()[0].getComponents().getTown())
-                .geoCodeModelsPlace(geoCodeModels.getResults()[0].getComponents().getCity())
-                .geoCodeModelsPlace(geoCodeModels.getResults()[0].getComponents().getVillage())
+                .geoCodeModelsPlace(geoCodeModels.results[0].getComponents().getTown())
+                .geoCodeModelsPlace(geoCodeModels.results[0].getComponents().getCity())
+                .geoCodeModelsPlace(geoCodeModels.results[0].getComponents().getVillage())
                 .build();
     }
 

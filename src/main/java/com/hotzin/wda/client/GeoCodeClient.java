@@ -20,7 +20,7 @@ public class GeoCodeClient {
     public GeoCodeModels mapToLocation(String latitude, String longitude){
         String uriString = UriComponentsBuilder.fromHttpUrl(MAIN_URL)
                 .queryParam("key", access_key)
-                .queryParam("q", latitude + "," + "-" + longitude)
+                .queryParam("q", latitude + "," + "-" + longitude.replace("-",""))
                 .build()
                 .toUriString();
 
