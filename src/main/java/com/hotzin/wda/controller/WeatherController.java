@@ -36,8 +36,7 @@ public class WeatherController {
 
         GeoCodeModels geoCodeModels = geoCodeClient.mapToLocation(clientRawModel.getLatitude(), clientRawModel.getLongitude());
 
-        return new
-                HttpEntity<WeatherResponse>(WeatherResponse.constructResponse(geoCodeModels, clientRawModel));
+        return new HttpEntity<WeatherResponse>(WeatherResponse.constructResponse(geoCodeModels, clientRawModel));
     }
 
     @CrossOrigin(origins = "*", allowedHeaders = "*")

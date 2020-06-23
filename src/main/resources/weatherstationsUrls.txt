@@ -1,9 +1,9 @@
 colwyn bay=http://www.thebayweather.com/clientraw.txt
-castle douglas=https://www.corsock.com/metdata/clientraw.txt
+corsock=https://www.corsock.com/metdata/clientraw.txt
 gosport=https://www.gosportweather.co.uk/clientraw.txt
 midmar=http://www.browgars.co.uk/wdl/clientraw.txt
 newham=http://www.tomsweatherservices.co.uk/weather_live/clientraw.txt
-newquay=http://www.newquayweather.com/clientraw.txt
+porth=http://www.newquayweather.com/clientraw.txt
 corran ferry=https://www.lochaberwx.co.uk/clientraw.txt
 whaley bridge=http://www.dragonshome.com/weather/clientraw.txt
 glenbervie=https://www.glenbervie-weather.org/clientraw.txt
