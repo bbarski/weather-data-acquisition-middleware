@@ -4,6 +4,8 @@ import com.hotzin.wda.client.model.GeoCodeModels;
 import com.hotzin.wda.model.ClientRawModel;
 import lombok.*;
 
+import java.util.Optional;
+
 @Setter
 @Getter
 @Builder
@@ -23,6 +25,12 @@ public class WeatherResponse {
 
     public static WeatherResponse constructResponse(GeoCodeModels geoCodeModels, ClientRawModel clientRawModel) {
 
+        String place =
+                Optional.ofNullable(geoCodeModels.results[0].getComponents().getTown())
+                        .orElse(Optional.ofNullable(geoCodeModels.results[0].getComponents().getCity())
+                        .orElse(Optional.ofNullable(geoCodeModels.results[0].getComponents().getVillage())
+                        .orElse("Unknown")));
+
         return WeatherResponse.builder()
                 .clientRawModelOutsideTempCelsius(clientRawModel.getOutsideTempCelsius())
                 .clientRawModelBarometerHPa(clientRawModel.getBarometerHPa())
@@ -31,9 +39,7 @@ public class WeatherResponse {
                 .clientRawModelAvgSpeedKnots(clientRawModel.getAvgSpeedKnots())
                 .clientRawModelLatitude(clientRawModel.getLatitude())
                 .clientRawModelLongitude(clientRawModel.getLongitude())
-                .geoCodeModelsPlace(geoCodeModels.results[0].getComponents().getTown())
-                .geoCodeModelsPlace(geoCodeModels.results[0].getComponents().getCity())
-                .geoCodeModelsPlace(geoCodeModels.results[0].getComponents().getVillage())
+                .geoCodeModelsPlace(place)
                 .build();
     }
 
