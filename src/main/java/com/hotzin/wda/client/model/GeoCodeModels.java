@@ -3,7 +3,6 @@ package com.hotzin.wda.client.model;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.*;
 
-@Setter
 @Getter
 @Builder
 @AllArgsConstructor
@@ -20,19 +19,19 @@ public class GeoCodeModels {
     public Object timestamp;
     public String total_results;
 
-    @Setter
+
     @Getter
     public static class Licenses{
         public String name;
         public String url;
     }
 
-    @Setter
+
     @Getter
     public static class Results{
         Components components;
 
-        @Setter
+
         @Getter
         public static class Components{
             public String town;

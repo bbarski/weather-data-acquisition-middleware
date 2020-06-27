@@ -1,22 +1,10 @@
-http://www.alvestonweather.co.uk/clientraw.txt
 https://www.weather-above.com/clientraw.txt
-http://www.clevedonweather.co.uk/wdisplay/clientraw.txt
-http://www.farnhamweather.co.uk/clientraw.txt
 https://www.lavendercam.net/weather/clientraw.txt
 http://www.merseysideweather.co.uk/NTLDIALS/clientraw.txt
 https://www.peterboroughweatherwatch.com/clientraw.txt
-http://www.southamptonweather.co.uk/clientraw.txt
-https://sidlawweather.co.uk/live/clientraw.txt
 http://www.carnoustieweather.co.uk/clientraw.txt
-http://www.bordersweather.co.uk/clientraw.txt
-http://hebweather.net/clientraw.txt
-http://www.isleofskyeweather.co.uk/clientraw.txt
-http://garyburnett.co.uk/php/clientraw.txt
-http://www.homeinscotland.dns2go.com/clientraw.txt
-http://www.bathgateweather.co.uk/system_data/weather_display/clientraw.txt
 http://www.burnhamoncrouchweather.com/clientraw.txt
 https://sidlawweather.co.uk/live/clientraw.txt
-https://www.sunwharf.com/willingdon/clientraw.txt
 http://hebweather.net/clientraw.txt
 https://www.lochaberwx.co.uk/clientraw.txt
 http://www.chilthorneweather.co.uk/wdl/clientraw.txt
@@ -42,8 +30,6 @@ http://www.stambourne.com/weather/customclientraw.txt
 https://www.lochaberwx.co.uk/customclientraw.txt
 http://www.pwsmunlochy.co.uk/gary/wmr300/steelgauges/customclientraw.txt
 https://www.lochaberwx.co.uk/customclientraw.txt
-http://www.stella-maris.org.uk/wdl/customclientraw.php
-http://www.chilthorneweather.co.uk/wdl/customclientraw.txt
 https://monadh.com/WC/customclientraw.txt
 https://monadh.com/NB/customclientraw.txt
 *http://frogville.us/clientraw.txt
@@ -90,6 +76,9 @@ http://www.cm2weather.co.uk/realtimegauges.txt
 http://www.tottonweather.co.uk/realtimegauges.txt
 https://www.wetherbyweather.org.uk/realtimegauges.txt
 http://stacjapogody.waw.pl/gauges/realtimegauges.php?nazwa=0
+
+http://www.stella-maris.org.uk/wdl/customclientraw.php
+
 
 http://www.duarteweather.com/assets/wxgraphic/data.html
 

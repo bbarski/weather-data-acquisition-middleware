@@ -28,7 +28,7 @@ public class CityMappingConfiguration {
     @Bean(name = "cityMapper")
     public Map<String, String> cityMapper() throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(accessFile()));
-
+//TODO Sanity config file for new lines
         String line;
         Map<String, String> map = new HashMap<>();
         while ((line = br.readLine()) != null) {

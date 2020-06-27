@@ -1,0 +1,18 @@
+corsock=https://www.corsock.com/metdata/clientraw.txt
+glenbervie=https://www.glenbervie-weather.org/clientraw.txt
+whaley bridge=http://www.dragonshome.com/weather/clientraw.txt
+gulberwick=http://gulberwickweather.co.uk/clientraw.txt
+kenai=https://www.kenaiweather.com/clientraw.txt
+ne phoenix=http://tiggrweather.net/clientraw.txt
+tucson=http://frogville.us/clientraw.txt
+foresthill=http://www.foresthillweather.com/wdisplay/clientraw.txt
+pacifica=http://cronce.org/MeteoHubPacifica/clientraw.txt
+rail road flat=http://railroadflat.org/weather/clientraw.txt
+bel air=https://www.weather-station.org/wdisplay/clientraw.txt
+las vegas=https://lasvegaswx.com/clientraw.txt
+http://www.chilthorneweather.co.uk/wdl/customclientraw.txt
+alveston=http://www.alvestonweather.co.uk/clientraw.txt
+farnham=http://www.farnhamweather.co.uk/clientraw.txt
+http://garyburnett.co.uk/php/clientraw.txt
+https://www.sunwharf.com/willingdon/clientraw.txt
+http://www.bathgateweather.co.uk/system_data/weather_display/clientraw.txt
