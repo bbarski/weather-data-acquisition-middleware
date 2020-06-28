@@ -12,7 +12,6 @@ import java.util.Optional;
 @AllArgsConstructor
 @NoArgsConstructor
 public class WeatherResponse {
-//TODO map clientRawModel to WeatherResponse
 
     private String clientRawModelOutsideTempCelsius;
     private String clientRawModelBarometerHPa;
