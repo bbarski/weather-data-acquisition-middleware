@@ -22,6 +22,7 @@ public class WeatherResponse {
     private String clientRawModelLatitude;
     private String clientRawModelLongitude;
     private String geoCodeModelsPlace;
+    private String geoCodeModelsISO_3166_1_alpha_3;
 
     public static WeatherResponse constructResponse(GeoCodeModels geoCodeModels, ClientRawModel clientRawModel) {
 
@@ -40,6 +41,7 @@ public class WeatherResponse {
                 .clientRawModelLatitude(clientRawModel.getLatitude())
                 .clientRawModelLongitude(clientRawModel.getLongitude())
                 .geoCodeModelsPlace(place)
+                .geoCodeModelsISO_3166_1_alpha_3(geoCodeModels.results[0].getComponents().getISO_3166_1_alpha_3())
                 .build();
     }
 

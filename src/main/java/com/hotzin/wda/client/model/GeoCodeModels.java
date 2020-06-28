@@ -1,6 +1,7 @@
 package com.hotzin.wda.client.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.*;
 
 @Getter
@@ -34,6 +35,8 @@ public class GeoCodeModels {
 
         @Getter
         public static class Components{
+            @JsonProperty("ISO_3166-1_alpha-3")
+            public String ISO_3166_1_alpha_3;
             public String town;
             public String city;
             public String village;

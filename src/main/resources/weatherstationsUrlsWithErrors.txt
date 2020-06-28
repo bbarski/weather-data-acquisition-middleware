@@ -16,3 +16,5 @@ farnham=http://www.farnhamweather.co.uk/clientraw.txt
 http://garyburnett.co.uk/php/clientraw.txt
 https://www.sunwharf.com/willingdon/clientraw.txt
 http://www.bathgateweather.co.uk/system_data/weather_display/clientraw.txt
+https://www.weather-above.com/clientraw.txt
+willow=http://www.willowweather.com/clientraw.txt

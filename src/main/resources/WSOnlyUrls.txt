@@ -1,5 +1,3 @@
-https://www.weather-above.com/clientraw.txt
-https://www.lavendercam.net/weather/clientraw.txt
 http://www.merseysideweather.co.uk/NTLDIALS/clientraw.txt
 https://www.peterboroughweatherwatch.com/clientraw.txt
 http://www.carnoustieweather.co.uk/clientraw.txt
@@ -9,7 +7,6 @@ http://hebweather.net/clientraw.txt
 https://www.lochaberwx.co.uk/clientraw.txt
 http://www.chilthorneweather.co.uk/wdl/clientraw.txt
 http://www.bathgateweather.co.uk/system_data/weather_display/clientraw.txt
-http://www.metnet.co.uk/clientraw.txt
 http://www.ardmore-lodge.com/clientraw.txt
 http://www.uptonmanor.eclipse.co.uk/weatherdisp/clientraw.txt
 http://www.martynhicks.uk/weather/clientraw.txt
@@ -24,6 +21,7 @@ http://tiggrweather.net/clientraw.txt
 http://tiggrweather.net/clientrawextra.txt
 http://www.pepperridgenorthvalley.com/wdlive/clientraw.txt
 http://www.pepperridgenorthvalley.com/wdlive/clientrawextra.txt
+===
 http://www.llanelliweather.co.uk/customclientraw.txt
 https://www.peterboroughweatherwatch.com/customclientraw.txt
 http://www.stambourne.com/weather/customclientraw.txt
