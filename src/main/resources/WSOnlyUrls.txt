@@ -77,6 +77,10 @@ http://stacjapogody.waw.pl/gauges/realtimegauges.php?nazwa=0
 
 http://www.stella-maris.org.uk/wdl/customclientraw.php
 
+http://www.pogoda-bielany.waw.pl/RSS/weewx_rss.xml
+
+http://www.meteopistoia.it/plugins/userMap/index.php
+
 
 http://www.duarteweather.com/assets/wxgraphic/data.html
 
