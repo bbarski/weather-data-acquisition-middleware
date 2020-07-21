@@ -80,6 +80,7 @@ http://www.stella-maris.org.uk/wdl/customclientraw.php
 http://www.pogoda-bielany.waw.pl/RSS/weewx_rss.xml
 
 http://www.meteopistoia.it/plugins/userMap/index.php
+http://meteo-lignerolles.fr/plugins/userMap/index.php
 
 
 http://www.duarteweather.com/assets/wxgraphic/data.html
