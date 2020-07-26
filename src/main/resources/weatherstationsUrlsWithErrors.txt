@@ -19,4 +19,4 @@ http://www.bathgateweather.co.uk/system_data/weather_display/clientraw.txt
 https://www.weather-above.com/clientraw.txt
 willow=http://www.willowweather.com/clientraw.txt
 u=http://www.uptonmanor.eclipse.co.uk/weatherdisp/clientraw.txt
-ver=http://www.vossjacobsen.dk/vejr/clientraw.txt
+h=http://pogoda-moscice.pl/clientraw.txt

@@ -29,7 +29,8 @@ public class WeatherResponse {
                 Optional.ofNullable(geoCodeModels.results[0].getComponents().getTown())
                         .orElse(Optional.ofNullable(geoCodeModels.results[0].getComponents().getCity())
                         .orElse(Optional.ofNullable(geoCodeModels.results[0].getComponents().getVillage())
-                        .orElse("Unknown")));
+                        .orElse(Optional.ofNullable(geoCodeModels.results[0].getComponents().getState())
+                        .orElse("Unknown"))));
 
         return WeatherResponse.builder()
                 .clientRawModelOutsideTempCelsius(clientRawModel.getOutsideTempCelsius())

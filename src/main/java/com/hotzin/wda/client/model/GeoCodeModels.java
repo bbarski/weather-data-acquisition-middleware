@@ -40,6 +40,7 @@ public class GeoCodeModels {
             public String town;
             public String city;
             public String village;
+            public String state;
         }
 
     }
