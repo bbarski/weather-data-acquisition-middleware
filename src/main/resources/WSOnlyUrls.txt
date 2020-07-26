@@ -2,19 +2,10 @@ http://www.merseysideweather.co.uk/NTLDIALS/clientraw.txt
 https://www.peterboroughweatherwatch.com/clientraw.txt
 http://www.carnoustieweather.co.uk/clientraw.txt
 http://www.burnhamoncrouchweather.com/clientraw.txt
-https://sidlawweather.co.uk/live/clientraw.txt
-http://hebweather.net/clientraw.txt
-https://www.lochaberwx.co.uk/clientraw.txt
 http://www.chilthorneweather.co.uk/wdl/clientraw.txt
 http://www.bathgateweather.co.uk/system_data/weather_display/clientraw.txt
 http://www.ardmore-lodge.com/clientraw.txt
-http://www.uptonmanor.eclipse.co.uk/weatherdisp/clientraw.txt
 http://www.martynhicks.uk/weather/clientraw.txt
-https://www.corsock.com/metdata/clientraw.txt
-https://www.kenaiweather.com/clientraw.txt
-https://www.kenaiweather.com/clientrawextra.txt
-http://www.willowweather.com/clientraw.txt
-http://www.willowweather.com/clientrawextra.txt
 http://weather.azkiwis.net/clientraw.txt
 http://weather.azkiwis.net/clientrawextra.txt
 http://tiggrweather.net/clientraw.txt
@@ -30,22 +21,6 @@ http://www.pwsmunlochy.co.uk/gary/wmr300/steelgauges/customclientraw.txt
 https://www.lochaberwx.co.uk/customclientraw.txt
 https://monadh.com/WC/customclientraw.txt
 https://monadh.com/NB/customclientraw.txt
-*http://frogville.us/clientraw.txt
-*https://weather.manyjourneys.com/WDL/clientraw.txt
-*http://www.foresthillweather.com/wdisplay/clientraw.txt
-*https://patricksweeneydds.com/clientraw.txt
-*http://cronce.org/MeteoHubPacifica/clientraw.txt
-*https://desertweather.com/clientraw.txt
-*http://railroadflat.org/weather/clientraw.txt
-*http://www.wx4mt.com/clientraw.txt
-*http://www.weathercat.net/clientraw.txt
-*http://www.deputydawgwx.com/clientraw.txt
-*https://www.weather-station.org/wdisplay/clientraw.txt
-*http://localweatherplus.com/clientraw.txt
-*https://lasvegaswx.com/clientraw.txt
-*http://www.johnsnhweather.com/clientraw.txt
-*https://heightsweather.info/clientraw.txt
-
 
 
 http://www.cliftonweather.co.uk/realtime.txt

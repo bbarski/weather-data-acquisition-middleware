@@ -1,4 +1,5 @@
 atlanta=http://www.deputydawgwx.com/clientraw.txt
+bristol=http://www.martynhicks.uk/weather/clientraw.txt
 cathedral city=https://desertweather.com/clientraw.txt
 columbus=http://localweatherplus.com/clientraw.txt
 clevedon=http://www.clevedonweather.co.uk/wdisplay/clientraw.txt
@@ -10,6 +11,7 @@ greenlaw=http://www.bordersweather.co.uk/clientraw.txt
 hasbrouck heights=https://heightsweather.info/clientraw.txt
 inchree=https://www.lochaberwx.co.uk/clientraw.txt
 kirkton of auchterhouse=https://sidlawweather.co.uk/live/clientraw.txt
+kettinge=http://www.vossjacobsen.dk/vejr/clientraw.txt
 leatherhead=https://www.lavendercam.net/weather/clientraw.txt
 lodi=https://patricksweeneydds.com/clientraw.txt
 london=http://www.tomsweatherservices.co.uk/weather_live/clientraw.txt
