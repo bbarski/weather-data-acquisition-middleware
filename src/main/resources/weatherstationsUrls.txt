@@ -18,6 +18,7 @@ lodi=https://patricksweeneydds.com/clientraw.txt
 london=http://www.tomsweatherservices.co.uk/weather_live/clientraw.txt
 maricopa=http://weather.azkiwis.net/clientraw.txt
 midmar=http://www.browgars.co.uk/wdl/clientraw.txt
+new tecumseth=http://www.celinmeteo.com/wdisplay/clientraw.txt
 neilston=http://www.homeinscotland.dns2go.com/clientraw.txt
 phoenix=http://www.pepperridgenorthvalley.com/wdlive/clientraw.txt
 pittsburg=http://www.johnsnhweather.com/clientraw.txt
