@@ -21,6 +21,7 @@ http://www.pwsmunlochy.co.uk/gary/wmr300/steelgauges/customclientraw.txt
 https://www.lochaberwx.co.uk/customclientraw.txt
 https://monadh.com/WC/customclientraw.txt
 https://monadh.com/NB/customclientraw.txt
+http://www.chilthorneweather.co.uk/wdl/customclientraw.txt
 
 
 http://www.cliftonweather.co.uk/realtime.txt
@@ -37,9 +38,11 @@ https://www.camarilloweather.com/realtime.txt
 http://www.foresthillweather.com/cumulus/realtime.txt
 http://pogoda.rcre.opolskie.pl/realtime.txt
 http://www.meteonarbonne.fr/ws_realtime.php
+http://www.tiempoensevilla.es/realtime.txt
 
 https://www.conligwx.org/MBrealtime.txt
 https://www.chatteris.biz/MBrealtime.txt
+https://www.castletonweather.net/MBrealtime.txt
 
 https://dunchurchweather.co.uk/weather/ws_realtime.php
 

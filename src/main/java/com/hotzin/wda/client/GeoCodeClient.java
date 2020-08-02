@@ -19,14 +19,11 @@ public class GeoCodeClient {
 
     public GeoCodeModels mapToLocation(String latitude, String longitude){
 
-        double dlongitude = Double.parseDouble(longitude);
-        dlongitude *= -1;
-        longitude = Double.toString(dlongitude);
-        //because (- for EAST of GMT) for davis stations wxdisplay
+
 
         String uriString = UriComponentsBuilder.fromHttpUrl(MAIN_URL)
                 .queryParam("key", access_key)
-                .queryParam("q", latitude + "," + longitude)
+                .queryParam("q", latitude + "," + checkSing(longitude))
                 .build()
                 .toUriString();
 
@@ -37,8 +34,12 @@ public class GeoCodeClient {
 
     }
 
-    private Double checkSing(String longitude){
-        return null;
+    private String checkSing(String longitude){
+
+        double dlongitude = Double.parseDouble(longitude);
+        dlongitude *= -1;
+        return Double.toString(dlongitude);
+        //because (- for EAST of GMT) for davis stations wxdisplay
     }
 
 
