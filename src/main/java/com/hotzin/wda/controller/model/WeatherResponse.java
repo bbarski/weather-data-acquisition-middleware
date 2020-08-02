@@ -24,7 +24,7 @@ public class WeatherResponse {
     private String geoCodeModelsISO_3166_1_alpha_3;
 
     public static WeatherResponse constructResponse(GeoCodeModels geoCodeModels, ClientRawModel clientRawModel) {
-
+//TODO add: postal_city, flag
         String place =
                 Optional.ofNullable(geoCodeModels.results[0].getComponents().getTown())
                         .orElse(Optional.ofNullable(geoCodeModels.results[0].getComponents().getCity())

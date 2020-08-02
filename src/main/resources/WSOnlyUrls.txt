@@ -9,7 +9,9 @@ https://monadh.com/WC/customclientraw.txt
 https://monadh.com/NB/customclientraw.txt
 http://www.chilthorneweather.co.uk/wdl/customclientraw.txt
 http://www.stella-maris.org.uk/wdl/customclientraw.php
+http://www.silkeborg-vejret.dk/vejrdata/customclientraw.txt
 ===
+http://www.hviding.dk/vejret/ws_realtime.php
 http://www.cliftonweather.co.uk/realtime.txt
 http://ccgi.nelsonm.plus.com/realtime.txt
 http://www.bramptonweather.co.uk/cumulus/realtime.txt
@@ -29,8 +31,10 @@ https://www.conligwx.org/MBrealtime.txt
 https://www.chatteris.biz/MBrealtime.txt
 https://www.castletonweather.net/MBrealtime.txt
 https://dunchurchweather.co.uk/weather/ws_realtime.php
+http://meteo-jn.cz/meteo/data/realtime.txt
 ===
 http://weather.penicuik.org/realtimegauges.txt
+http://www.the-lighthouse.se/eng/cumulus/realtimegauges.txt
 http://www.sheffieldweather.net/cumulus/realtimegauges.txt
 https://www.pedrox.com/weather/realtimegauges.txt
 https://warehamwx.co.uk/realtimegauges.txt

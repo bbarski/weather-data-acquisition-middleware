@@ -25,3 +25,4 @@ a=http://www.burnhamoncrouchweather.com/clientraw.txt
 a=http://www.chilthorneweather.co.uk/wdl/clientraw.txt
 w=http://www.bathgateweather.co.uk/system_data/weather_display/clientraw.txt
 a=http://www.ardmore-lodge.com/clientraw.txt
+s=http://www.herlev-vejret.dk/clientraw.txt
