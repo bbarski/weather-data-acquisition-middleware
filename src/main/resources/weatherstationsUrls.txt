@@ -1,6 +1,7 @@
 atlanta=http://www.deputydawgwx.com/clientraw.txt
 bristol=http://www.martynhicks.uk/weather/clientraw.txt
 cathedral city=https://desertweather.com/clientraw.txt
+chalkida=http://www.chalkisweather.gr/live/clientraw.txt
 columbus=http://localweatherplus.com/clientraw.txt
 clevedon=http://www.clevedonweather.co.uk/wdisplay/clientraw.txt
 dunvegan=http://www.isleofskyeweather.co.uk/clientraw.txt

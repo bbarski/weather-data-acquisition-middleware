@@ -1,3 +1,4 @@
+http://www.llanelliweather.co.uk/clientraw.txt
 ===
 http://www.llanelliweather.co.uk/customclientraw.txt
 https://www.peterboroughweatherwatch.com/customclientraw.txt
@@ -12,6 +13,7 @@ http://www.stella-maris.org.uk/wdl/customclientraw.php
 http://www.silkeborg-vejret.dk/vejrdata/customclientraw.txt
 ===
 http://www.hviding.dk/vejret/ws_realtime.php
+http://www.montrealsky.com/realtime.txt
 http://www.cliftonweather.co.uk/realtime.txt
 http://ccgi.nelsonm.plus.com/realtime.txt
 http://www.bramptonweather.co.uk/cumulus/realtime.txt
