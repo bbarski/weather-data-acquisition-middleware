@@ -34,6 +34,7 @@ https://dunchurchweather.co.uk/weather/ws_realtime.php
 http://meteo-jn.cz/meteo/data/realtime.txt
 ===
 http://weather.penicuik.org/realtimegauges.txt
+http://www.ho66es.org/weather/realtimegauges.txt
 http://www.the-lighthouse.se/eng/cumulus/realtimegauges.txt
 http://www.sheffieldweather.net/cumulus/realtimegauges.txt
 https://www.pedrox.com/weather/realtimegauges.txt
@@ -51,3 +52,4 @@ http://www.duarteweather.com/assets/wxgraphic/data.html
 http://www.foresthillweather.com/WxFlash/Data/wflash.txt
 http://www.foresthillweather.com/WxFlash/Data/wflash2.txt
 https://api.weather.com/v3/TileServer/series/productSet?apiKey=089ed4e892fb0dfdf34eb81e6f2521aa&filter=twc250RadarMosaic
+https://mad-weather.com/topsites/
