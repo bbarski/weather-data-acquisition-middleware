@@ -10,8 +10,7 @@ public class WeatherDataMappingService {
 
     public ClientRawModel mapData(String weatherData){
 
-        ClientRawModel clientRawModel = ClientRawModel.from(weatherData);
+        return ClientRawModel.from(weatherData);
 
-        return clientRawModel;
     }
 }
