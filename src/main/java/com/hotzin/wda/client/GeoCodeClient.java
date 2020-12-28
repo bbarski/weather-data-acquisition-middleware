@@ -15,7 +15,7 @@ public class GeoCodeClient {
 
     private final RestTemplate restTemplate;
     private final String MAIN_URL = "https://api.opencagedata.com/geocode/v1/json";
-    private final String access_key = "1a7b9de81aa5420fb668509d651f2450";
+    private final String access_key = System.getenv("open_cage_access_key");
 
     public GeoCodeModels mapToLocation(String latitude, String longitude){
 
