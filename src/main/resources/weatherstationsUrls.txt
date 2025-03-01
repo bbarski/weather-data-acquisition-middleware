@@ -37,4 +37,5 @@ santa cruz=http://www.weathercat.net/clientraw.txt
 santee=http://www.wx4mt.com/clientraw.txt
 stornoway=http://hebweather.net/clientraw.txt
 sherman=http://www.shermanctweather.org/clientraw.txt
+tarnów=http://pogoda-moscice.pl/clientraw.txt
 ødis bramdrup=http://www.ullerslev-radiotv.dk/vejr/clientraw.txt
