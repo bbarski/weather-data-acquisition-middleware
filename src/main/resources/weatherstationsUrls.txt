@@ -1,6 +1,7 @@
 atlanta=http://www.deputydawgwx.com/clientraw.txt
 auburn=http://www.auburnweatherlive.com/clientraw.txt
 bristol=http://www.martynhicks.uk/weather/clientraw.txt
+bydgosz=http://sq2frb.ddns.net/meteo/WD/clientraw.txt
 cathedral city=https://desertweather.com/clientraw.txt
 chalkida=http://www.chalkisweather.gr/live/clientraw.txt
 columbus=http://localweatherplus.com/clientraw.txt
