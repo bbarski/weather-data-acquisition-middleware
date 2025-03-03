@@ -15,12 +15,15 @@
 - **Maven**
 
 ## 🔧 Instalacja  
-1. **Sklonuj repozytorium**  
+1. **Sklonuj repozytorium**
+     
    ```sh
    git clone https://github.com/bbarski/weather-data-acquisition-middleware-Learning-Java.git
    cd weather-data-acquisition-middleware-Learning-Java
    ```
-2. **Zbuduj projekt**
+   
+3. **Zbuduj projekt**
+   
    ```sh
    mvn clean install
    ```
