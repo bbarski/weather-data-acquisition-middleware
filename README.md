@@ -12,13 +12,19 @@
 - **Java**
 - **Spring Boot**
 - **REST API**
-- **Maven/Gradle** – zarządzanie zależnościami
+- **Maven**
 
 ## 🔧 Instalacja  
 1. **Sklonuj repozytorium**  
    ```sh
    git clone https://github.com/bbarski/weather-data-acquisition-middleware-Learning-Java.git
    cd weather-data-acquisition-middleware-Learning-Java
+   ```
+2. **Zbuduj projekt**
+   ```sh
+   mvn clean install
+   ```
+   
 
 
 
