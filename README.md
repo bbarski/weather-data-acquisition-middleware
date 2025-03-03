@@ -1,6 +1,7 @@
 # 🌦️ Weather Data Acquisition Middleware  
 
-🚀 **Weather Data Acquisition Middleware** to projekt rozwijany w ramach nauki Javy. Jego celem jest pobieranie, przetwarzanie i udostępnianie danych pogodowych z różnych źródeł, zapewniając ustandaryzowany format do dalszego wykorzystania.
+🚀 **Weather Data Acquisition Middleware** to projekt rozwijany w ramach nauki Javy. 
+Jego celem jest pobieranie, przetwarzanie i udostępnianie danych pogodowych z różnych źródeł, zapewniając ustandaryzowany format do dalszego wykorzystania.
 
 ## 📌 Kluczowe funkcje  
 - Pobieranie danych pogodowych z zewnętrznych API  
