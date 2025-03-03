@@ -16,13 +16,14 @@
 
 ## 🔧 Instalacja  
 1. **Sklonuj repozytorium**
-     
+   
    ```sh
-   git clone https://github.com/bbarski/weather-data-acquisition-middleware-Learning-Java.git && cd weather-data-acquisition-middleware-Learning-Java
+     git clone https://github.com/bbarski/weather-data-acquisition-middleware-Learning-Java.git && \
+     cd weather-data-acquisition-middleware-Learning-Java
    ```
    
 3. **Zbuduj projekt**
-   
+  
    ```sh
    mvn clean install
    ```
