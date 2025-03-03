@@ -9,9 +9,9 @@
 - Możliwość rozbudowy o dodatkowe źródła danych
 
 ## 🛠️ Technologie  
-- **Java** – główny język programowania  
-- **Spring Boot** – jeśli projekt korzysta z frameworka  
-- **REST API** – do pobierania i udostępniania danych  
+- **Java**
+- **Spring Boot**
+- **REST API**
 - **Maven/Gradle** – zarządzanie zależnościami
 
 ## 🔧 Instalacja  
