@@ -28,7 +28,11 @@
    mvn clean install
    ```
    
+4. **Uruchom aplikację**
 
+   ```sh
+   java -jar target/weather-data-middleware.jar
+   ```
 
 
 
