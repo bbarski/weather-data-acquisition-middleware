@@ -36,7 +36,43 @@ Jego celem jest pobieranie, przetwarzanie i udostępnianie danych pogodowych z r
    java -jar target/weather-data-middleware.jar
    ```
 
+# 🌦️ Weather Data Acquisition Middleware  
 
+🚀 ** Weather Data Acquisition Middleware ** is a project developed as part of Java's learning. 
+
+Its purpose is to download, process and share weather data from various sources, providing a standardized format for further use.
+
+## 📌 key functions  
+- downloading weather data from external API  
+- data processing and normalization  
+- sharing processed data in a standardized form  
+- the possibility of expanding with additional data sources
+
+## 🛠️ Technologies  
+- ** Java **
+- ** Spring Boot **
+- ** REST API **
+- ** maven **
+
+## 🔧 installation  
+1. ** Clone the repository **
+   
+   %%% SH
+     Git Clone https://github.com/bbarski/weather-data-acquisition-middleware-learning-java.git && 
+     CD Weather-Data-ACQUISITION-MIDDLEWARE-LEARNING-JAVA
+   %%%
+   
+3. ** Build a project **
+  
+   %%% SH
+   MVN Clean Install
+   %%%
+   
+4. ** Start the application **
+
+   %%% SH
+   Java-Jar Target/Weather-Data-Middleware.jar
+   %%%
 
 ## Middleware to get data from weather stations and provide API
 
