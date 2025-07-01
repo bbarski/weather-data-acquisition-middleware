@@ -16,7 +16,11 @@ Jego celem jest pobieranie, przetwarzanie i udostępnianie danych pogodowych z r
 - **REST API**
 - **Maven**
 
-## 🔧 Instalacja  
+## 🔧 Instalacja
+###🧩 Wymagania wstępne
+Aby aplikacja działała poprawnie, wymagany jest klucz API z serwisu OpenCage Data, który służy do geokodowania współrzędnych.
+Po zarejestrowaniu się i uzyskaniu klucza, dodaj go do zmiennej środowiskowej.
+
 1. **Sklonuj repozytorium**
    
    ```sh
@@ -55,6 +59,10 @@ Its purpose is to download, process and share weather data from various sources,
 - ** maven **
 
 ## 🔧 installation  
+###🧩 Prerequisites
+To run the application properly, you need an API key from OpenCage Data, which is used for geocoding coordinates.
+After signing up and obtaining your key, add it to the system env.
+
 1. ** Clone the repository **
    
    ```sh
