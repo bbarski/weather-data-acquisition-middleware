@@ -57,22 +57,22 @@ Its purpose is to download, process and share weather data from various sources,
 ## 🔧 installation  
 1. ** Clone the repository **
    
-   %%% SH
+   ```sh
      Git Clone https://github.com/bbarski/weather-data-acquisition-middleware-learning-java.git && 
      CD Weather-Data-ACQUISITION-MIDDLEWARE-LEARNING-JAVA
-   %%%
+   ```
    
 3. ** Build a project **
   
-   %%% SH
+  ```sh
    MVN Clean Install
-   %%%
+   ```
    
 4. ** Start the application **
 
-   %%% SH
+   ```sh
    Java-Jar Target/Weather-Data-Middleware.jar
-   %%%
+   ```
 
 ## Middleware to get data from weather stations and provide API
 
